@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXTRAAAZ Salon | Viman Nagar</title>
+
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+      ),
+      url("https://images.unsplash.com/photo-1522337360788-8b13dee7a37e");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 120px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+
+    /* SECTION TITLE */
+    .section-title {
+      font-weight: 700;
+      color: #dc3545;
+    }
+
+    /* SERVICE CARDS */
+    .service-card {
+      border: none;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .service-icon {
+      font-size: 40px;
+      color: #dc3545;
+    }
+
+    /* CTA */
+    .cta {
+      background: #dc3545;
+      color: white;
+      border-radius: 25px;
+      padding: 50px 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">EXTRAAAZ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" title="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="booking.html">Book</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+  <div class="container">
+    <h1>Beauty Begins Here ✨</h1>
+    <p>Premium women salon & bridal services in Viman Nagar, Pune</p>
+    <a href="booking.html" class="btn btn-danger btn-lg px-4">Book Appointment</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="container my-5">
+  <h2 class="text-center section-title mb-4">Our Services</h2>
+
+  <div class="row g-4 text-center">
+
+    <div class="col-md-4">
+      <div class="card service-card p-4 h-100">
+        <div class="service-icon mb-3">💇‍♀️</div>
+        <h5>Hair Styling</h5>
+        <p>Haircut, coloring, smoothening & spa treatments.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card service-card p-4 h-100">
+        <div class="service-icon mb-3">💆‍♀️</div>
+        <h5>Facial & Skincare</h5>
+        <p>Glow facials, cleanup, detan & skin care therapy.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card service-card p-4 h-100">
+        <div class="service-icon mb-3">👰</div>
+        <h5>Bridal Makeup</h5>
+        <p>Bridal, engagement & party makeup packages.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="container my-5">
+  <div class="cta text-center">
+    <h3 class="mb-3">Ready for a Gorgeous Transformation?</h3>
+    <a href="booking.html" class="btn btn-light btn-lg">Book Now</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+  © 2026 EXTRAAAZ Salon | Viman Nagar, Pune
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

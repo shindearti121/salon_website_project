@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff0f5, #ffffff);
+      min-height: 100vh;
+    }
+
+    .contact-card {
+      background: #fff;
+      border-radius: 22px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      padding: 30px;
+    }
+
+    .contact-title {
+      font-weight: 800;
+      color: #dc3545;
+    }
+
+    .contact-sub {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .info-box {
+      background: #fff5f7;
+      border-radius: 16px;
+      padding: 15px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+    }
+
+    .info-icon {
+      font-size: 22px;
+      color: #dc3545;
+    }
+
+    .map-embed {
+      border-radius: 18px;
+      border: none;
+      margin-top: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+
+      <div class="contact-card">
+
+        <h2 class="text-center contact-title mb-2">
+          📍 Contact Us
+        </h2>
+
+        <p class="text-center contact-sub mb-4">
+          We’d love to pamper you ✨ Visit us at our salon
+        </p>
+
+        <!-- Contact Info -->
+        <div class="info-box">
+          <span class="info-icon">🏢</span>
+          <span><strong>Location:</strong> Viman Nagar, Pune</span>
+        </div>
+
+        <div class="info-box">
+          <span class="info-icon">📞</span>
+          <span><strong>Phone:</strong> +91 80104 99191</span>
+        </div>
+
+        <div class="info-box">
+          <span class="info-icon">⏰</span>
+          <span><strong>Working Hours:</strong> 10:00 AM – 9:00 PM</span>
+        </div>
+
+        <!-- Google Map -->
+        <iframe
+          class="map-embed w-100"
+          title="Map of Viman Nagar, Pune"
+          src="https://www.google.com/maps?q=Viman+Nagar+Pune&output=embed"
+          height="320">
+        </iframe>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
