@@ -48,4 +48,5 @@ Copy code
 Open `index.html` in any web browser.
 
 ## Author
-Shruti Pagare
+Shinde Aarti
+
